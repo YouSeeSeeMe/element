@@ -1,8 +1,8 @@
-import ElButton from './src/button';
+import CndButton from './src/button';
 
 /* istanbul ignore next */
-ElButton.install = function(Vue) {
-  Vue.component(ElButton.name, ElButton);
+CndButton.install = function(Vue) {
+  Vue.component('CndButton', CndButton);
 };
 
-export default ElButton;
+export default CndButton;
